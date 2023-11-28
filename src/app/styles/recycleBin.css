@@ -1,0 +1,33 @@
+.recycleBinWarning {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.recycleBinWarning > span {
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  text-wrap: balance;
+}
+
+.recycleBinWarning > button {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border: 1px solid rgba(255, 255, 255);
+  border-radius: 7px;
+  background-color: transparent;
+  color: rgba(255, 255, 255);
+  opacity: 0.7;
+}
+
+.recycleBinWarning > button:active {
+  opacity: 1;
+}
+
+.binNoDataFound{
+  margin-top: 10rem;
+}
